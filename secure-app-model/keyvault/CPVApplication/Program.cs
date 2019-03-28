@@ -6,9 +6,6 @@
 
 namespace CPVApplication
 {
-    using System;
-    using System.Configuration;
-    using System.Threading.Tasks;
     using CPVApplication.Utilities;
     using Microsoft.Store.PartnerCenter;
     using Microsoft.Store.PartnerCenter.Extensions;
@@ -16,6 +13,9 @@ namespace CPVApplication
     using Microsoft.Store.PartnerCenter.Models.Users;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Linq;
+    using System;
+    using System.Configuration;
+    using System.Threading.Tasks;
 
     internal class Program
     {
