@@ -15,7 +15,7 @@ namespace Microsoft.Store.PartnerCenter.Samples.Customers
         /// Initializes a new instance of the <see cref="GetCustomerManagedServices"/> class.
         /// </summary>
         /// <param name="context">The scenario context.</param>
-        public GetCustomerManagedServices(IScenarioContext context) : base("Get customer managed services", context)
+        public GetCustomerManagedServices(IScenarioContext context) : base("Get user managed services", context)
         {
         }
 
