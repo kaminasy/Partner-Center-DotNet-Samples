@@ -57,14 +57,14 @@ namespace Microsoft.Store.PartnerCenter.Samples.Customers
                 }
             };
 
-            this.Context.ConsoleHelper.WriteObject(customerToCreate, "New user Information");
-            this.Context.ConsoleHelper.StartProgress("Creating user");
+            this.Context.ConsoleHelper.WriteObject(customerToCreate, "New customer Information");
+            this.Context.ConsoleHelper.StartProgress("Creating customer");
 
             var newCustomer = partnerOperations.Customers.Create(customerToCreate);
 
             this.Context.ConsoleHelper.StopProgress();
             this.Context.ConsoleHelper.Success("Success!");
-            this.Context.ConsoleHelper.WriteObject(newCustomer, "Created user Information");
+            this.Context.ConsoleHelper.WriteObject(newCustomer, "Created customer Information");
         }
     }
 }
